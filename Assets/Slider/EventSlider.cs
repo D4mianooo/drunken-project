@@ -26,10 +26,12 @@ public class EventSlider : MonoBehaviour {
     }
     private void Update() {
         if (slider.value == slider.minValue) {
+            isCycleOver = true;
             StopCoroutine("LerpSliderValue");
             StartCoroutine(LerpSliderValue(slider.minValue, slider.maxValue));
         }
         if (slider.value == slider.maxValue) {
+            isCycleOver = true;
             StopCoroutine("LerpSliderValue");
             StartCoroutine(LerpSliderValue(slider.maxValue, slider.minValue));
         }
