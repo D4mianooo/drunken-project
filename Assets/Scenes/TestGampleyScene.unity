@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.2310025, g: 0.28877005, b: 0.3979411, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -675,8 +675,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 1488156920}
   sliderSpeed: 200
-  minSliderSucces: -50
-  maxSliderSucces: 50
+  minSliderSucces: 385
+  maxSliderSucces: 515
   isCycleOver: 1
 --- !u!1 &1510236472 stripped
 GameObject:
@@ -1029,7 +1029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1770298041977185857, guid: 758a44b814413714bbda51508e10bb2d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1770298041977185857, guid: 758a44b814413714bbda51508e10bb2d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1059,9 +1059,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1770298043806821986, guid: 758a44b814413714bbda51508e10bb2d, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1770298043806821997, guid: 758a44b814413714bbda51508e10bb2d, type: 3}
       propertyPath: m_ClearFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807126321078572078, guid: 758a44b814413714bbda51508e10bb2d, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754995835613071624, guid: 758a44b814413714bbda51508e10bb2d, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 758a44b814413714bbda51508e10bb2d, type: 3}

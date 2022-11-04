@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: da8a67eee5936354fa6b6c3f9a20da63
+=======
+guid: e516653ccf90c5040b9b3257d21fcafc
+>>>>>>> masterek
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
