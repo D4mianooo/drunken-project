@@ -376,6 +376,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1257313724}
     m_Modifications:
+    - target: {fileID: 819368881767205284, guid: fbc383639fdbb9149a16874d62f1a26d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 819368881767205284, guid: fbc383639fdbb9149a16874d62f1a26d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2895230767587096698, guid: fbc383639fdbb9149a16874d62f1a26d, type: 3}
       propertyPath: m_Name
       value: Road Variant 1
